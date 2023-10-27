@@ -35,20 +35,25 @@
 
 
 // Grandma's favorite
-// Access the 14th grandchild and give them a font color of pink and italicize
-// use array index to access the child and use 'children' to access the grandchild.
+// Access the 14th grandchild and give them a font color 
+// of pink and italicize
+// use array index to access the child and use 'children'
+// to access the grandchild.
 // Look at MDN DOM children property
 // Assign a text color purple to the 14th grandchild
 
 
 // The JavaScript of Grandchildren
-// Access the parent with the child named 9 and give the parent a position of relative
-// Access the 9th child and assign it to a variable named blackSheep. Use the same method from above to access the child (children property)
-// Give the following properties to blackSheep
-// text color black
-// font size 9rem
-// text align right
-// transform scale(-1, 1)
-// position absolute
-// top 30px
-// left 500px
+// - Access the parent with the child named 9 and
+//   give the parent a position of relative
+// - Access the 9th child and assign it to a variable
+//   named blackSheep. Use the same method from above to
+//   access the child (children property)
+// - Give the following properties to blackSheep
+// - text color black
+// - font size 9rem
+// - text align right
+// - transform scale(-1, 1)
+// - position absolute
+// - top 30px
+// - left 500px
