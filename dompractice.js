@@ -39,18 +39,23 @@ favoriteGrandChild.style.color = "pink";
 favoriteGrandChild.style.color = "purple";
 favoriteGrandChild.style.fontStyle = "italic";
 
-for(let child of children)
+let blackSheep = get9thChild();
+blackSheep.parentElement.style.position = "relative";
+
+function get9thChild()
 {
-  for(let grandchild of child.children) 
-  {
-    if(grandchild.textContent === "9")
-    {
-      console.log(grandchild);
-      console.log(grandchild.parentElement);
-      // grandchild.parent.style.position = "relative";
-      grandchild.parentElement.style.color = "black";
-    }
-  }
+  for(let child of children)
+    for(let grandchild of child.children) 
+      if(grandchild.textContent === "9")
+        return grandchild; 
 }
+
+blackSheep.style.color = "black";
+blackSheep.style.fontSize = "9rem";
+blackSheep.style.textAlign = "right";
+blackSheep.style.transform = "scale(-1, 1)";
+blackSheep.style.position = "absolute";
+blackSheep.style.top = "30px";
+blackSheep.style.left = "500px";
 
 
