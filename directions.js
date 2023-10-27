@@ -1,12 +1,15 @@
 // Create an index.html and dompractice.js. Connect the js file.
-// Inside the body of your element write the code below to create a bunch of divs using Emmett shortcut.
+// Inside the body of your element write the code below to create 
+// a bunch of divs using Emmett shortcut.
 // For example, div#frenchfry
-// There should be a parent div which 6 children and each children has 3 children :)
+// There should be a parent div which 6 children 
+// and each children has 3 children :)
 // The names of the divs should contain the following class names.
 // parent > child > grandchild
 
 // ===== JavaScript =====
-// Change the title of your webpage to 'DOM Practice' using textContent and without assigning an id or a class name
+// Change the title of your webpage to 'DOM Practice' using 
+// textContent and without assigning an id or a class name
 
 
 // Access the parent and apply the following properties to the parent.
